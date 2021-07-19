@@ -37,3 +37,4 @@ elif which == 'ai':
 if which == 'p':
     if diff == 'normal':
         print('n')
+        

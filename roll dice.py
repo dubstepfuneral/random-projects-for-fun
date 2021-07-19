@@ -7,7 +7,7 @@
 import random as rd
 
 def roll():
-    return rd.randrange(1, 6)
+    return rd.randrange(1, 7)
 
 num = roll()
 print("—————————")
