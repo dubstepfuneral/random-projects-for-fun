@@ -1,4 +1,5 @@
 # this is rock pepa scissoir. the classic.
+# UNFINISHED!
 import random as rd
 from time import sleep
 
@@ -56,5 +57,5 @@ if which == 'p':
             pTurn = askPlayerTurn("Which one do you pick? (rock - 'r', paper - 'p', scissors - 's'): ", ['r', 'p', 's'])
             aiTurn = getRandomTurn()
             print("AI's turn - " + dict[aiTurn])
-            
+
 
