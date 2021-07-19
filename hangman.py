@@ -9,7 +9,7 @@ def getRandomLossWords():
     'AHHHHHHH AAAAAAAAHHHHHHHHHHHH AHHHHHAHHHHHHHHHHHHHHHHHH', 
     '*dies*', "you're killing a man. im contacting fbi, you're fucked.", 'Damn Daniel!', 'Крым Наш!', 'bruh', 
     'playin minecraffft', '*slap*', 'Fuck you!', 'Stop the cap!', "you're the imposter. sus.", 'SUS!', 'CUM!',
-    'BRUH! *dies*', 'hey babe *shits furiously']
+    'BRUH! *dies*', 'hey babe *shits furiously'] 
     print(list[rd.randrange(0, len(list))])
     
 with open('forHangman.txt', 'r') as file:

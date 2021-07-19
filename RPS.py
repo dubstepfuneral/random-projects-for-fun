@@ -11,6 +11,15 @@ def getRandomTurn():
     elif ran == 3:
         return 's'
 
+def askPlayerTurn(string, reqs):
+    done = 0
+    while done == 0:
+        userInput = input(string)
+        if userInput not in reqs:
+            print("That's not what was asked for!")
+        if userInput in reqs:
+            done = 1
+            break
 
 done = 0
 while done == 0:
@@ -36,5 +45,16 @@ elif which == 'ai':
 
 if which == 'p':
     if diff == 'normal':
-        print('n')
-        
+        pScore = 0
+        aiScore = 0
+        dict = {
+            'r': 'Rock',
+            'p': 'Paper',
+            's': 'Scissors'
+        }
+        while pScore != 5 or aiScore != 5:
+            pTurn = askPlayerTurn("Which one do you pick? (rock - 'r', paper - 'p', scissors - 's'): ", ['r', 'p', 's'])
+            aiTurn = getRandomTurn()
+            print("AI's turn - " + dict[aiTurn])
+            
+
