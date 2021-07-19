@@ -11,6 +11,7 @@ def roll():
 
 num = roll()
 print("—————————")
+# probably a very stupid system to decide which is which but who cares it's only 6 variants and it's python lol
 if num == 1:
     print("|       |")
     print("|   ·   |")
