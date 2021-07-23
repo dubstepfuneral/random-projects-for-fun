@@ -27,7 +27,7 @@ elif inclNum == 'y' and inclChar == 'n':
 elif inclNum == 'n' and inclChar == 'y':
     charList = list(ascii_lowercase) + ['!','@','#','$','%','^','&','*','(',')']
 elif inclNum == 'y' and inclChar == 'y':
-    charList = list(ascii_lowercase) + ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] + ['!','@','#','$','%','^','&','*','(',')']
+    charList = list(ascii_lowercase) + ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] + ['!','@','#','$','%','^','&','*','(',')', '_', '-', '+', '=', ':', ';', "'", '"', '\\', '|', ',', '.']
 
 final = ""
 for i in range(0, int(length)):
