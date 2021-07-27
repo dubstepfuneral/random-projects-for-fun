@@ -20,7 +20,6 @@ word = wordList[rd.randrange(0, len(wordList))]
 hangWord = "_" * (len(word)-1)
 guessed = []
 guess = 0
-print(word)
 while True:
     if tries == 0:
         print(hangWord)
@@ -76,7 +75,6 @@ while True:
         guessLst = findIndex(word, guess)
         for i in guessLst:
             guessed.append(i)
-        print(guessed)
     else:
         wrong += 1
 

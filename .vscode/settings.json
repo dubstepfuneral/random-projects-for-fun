@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "password generator java/passwordGenerator/src",
+        "hangman/src"
+    ]
+}
