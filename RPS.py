@@ -41,7 +41,7 @@ impossibleAILogic = {
     'r' : 'p',
     'p' : 's',
     's' : 'r'
-    }
+}
 
 def getAITurn(pTurn):
     return impossibleAILogic[pTurn]
