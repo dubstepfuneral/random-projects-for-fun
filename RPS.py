@@ -23,15 +23,15 @@ def askPlayerTurn(string, reqs):
     return userInput
 
 gameLogic = { # r - rock p - paper s - scissors; rp - rock (player1) paper (player2), etc.
-            'rs' : 'p1',
-            'rp' : 'p2',
-            'pr' : 'p1',
-            'ps' : 'p2',
-            'sp' : 'p1',
-            'sr' : 'p2',
-            'rr' : 'tie',
-            'pp' : 'tie',
-            'ss' : 'tie'
+    'rs' : 'p1',
+    'rp' : 'p2',
+    'pr' : 'p1',
+    'ps' : 'p2',
+    'sp' : 'p1',
+    'sr' : 'p2',
+    'rr' : 'tie',
+    'pp' : 'tie',
+    'ss' : 'tie'
 }
 
 def getWinner(p1, p2):
