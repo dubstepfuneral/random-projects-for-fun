@@ -30,6 +30,7 @@ def calc(key):
     if key == "=":
         yes = '-+0123456789.*/()'
         if calcEntry.get()[0] not in yes:
+            calcEntry.delete(0, END)
             calcEntry.insert(END, "First symbol is not a number!")
             messagebox.showerror("Error!", "You did not enter a number! Bruh!")
         try:
@@ -37,6 +38,7 @@ def calc(key):
             calcEntry.delete(0, END)
             calcEntry.insert(END, str(result))
         except:
+            calcEntry.delete(0, END)
             calcEntry.insert(END, "Error!")
             messagebox.showerror("Error!", "Check the correctness of the data.")
     elif key == "C":
