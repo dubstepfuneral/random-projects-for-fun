@@ -13,7 +13,7 @@ def play():
     global path, audioFile
     mixer.music.load(path + "\\" + audioFile)
     mixer.music.set_volume(0.3)
-    mixer.music.play()    
+    mixer.music.play()
 
 root = Tk()
 root.title("balls")
